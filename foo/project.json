@@ -1,0 +1,22 @@
+{
+  "id": 20864580600,
+  "name": "Foo",
+  "type": "Optimizely",
+  "web_snippet": {
+    "enable_force_variation": true,
+    "exclude_disabled_experiments": false,
+    "exclude_names": false,
+    "include_jquery": false,
+    "ip_anonymization": true,
+    "library": "none"
+  },
+  "project_js_hash": "asdfasdgasfh12615616361",
+  "qa_audience_id": 20953440672,
+  "pages": [],
+  "tags": ["FOO"],
+  "slug": "foo",
+  "last_modified": "2023-04-19T23:31:28.266621Z",
+  "optimizely_token": "0afde40cd869b4bffdf51dbe67e6b335ws47a80c5edb2c1905a22769de1ba",
+  "goals": [],
+  "edit_url": "https://www.foo.com/"
+}

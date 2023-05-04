@@ -1,0 +1,45 @@
+{
+  "id": 20272172511,
+  "campaign_id": 20278380413,
+  "name": "[OLI] Experiment Template",
+  "variations": [
+    {
+      "actions": [],
+      "archived": false,
+      "name": "Control",
+      "status": "active",
+      "variation_id": 20266118674,
+      "weight": 5000
+    },
+    {
+      "actions": [],
+      "archived": false,
+      "name": "Variation",
+      "status": "active",
+      "variation_id": 20281432718,
+      "weight": 5000
+    }
+  ],
+  "project_id": 3164220185,
+  "type": "a/b",
+  "audience_conditions": "[\"and\", {\"audience_id\": 15919940070}]",
+  "page_ids": [
+    8563683279
+  ],
+  "metrics": [
+    {
+      "aggregator": "sum",
+      "field": "revenue",
+      "scope": "visitor",
+      "winning_direction": "increasing"
+    }
+  ],
+  "pages": [
+    {
+      "name": "Experiment page",
+      "edit_url": "https://crometrics.com/",
+      "tag": "page"
+    }
+  ],
+  "tag": "_template"
+}
